@@ -8,7 +8,9 @@ The API created in this project are as follow:-
 
 ### Test API
 **Method**: GET
+
 **URL**: localhost:8080/products/test
+
 **RESPONSE**:
 Greetings from the Test controller!
 
@@ -16,6 +18,7 @@ Greetings from the Test controller!
 
 ### Create New Product
 **Method**: POST
+
 **URL**: localhost:8080/products/create
 
 Query Params Body urlencoded
@@ -29,6 +32,7 @@ Product Created Successfully
 -----------------------------------------------------------------------------------------------------------------------
 ### View Detail of Single Product
 **Method**: GET
+
 **URL**: localhost:8080/products/64aba208dfc6a2bfc1b022a0
 
 **RESPONSE**:
@@ -43,6 +47,7 @@ Product Created Successfully
 -----------------------------------------------------------------------------------------------------------------------------
 ### Update a Product
 **Method**: PUT
+
 **URL**: localhost:8080/products/64aba32250d7a312efec8be9/update
 
 urlencoded
@@ -56,6 +61,7 @@ Product udpated.
 
 ### View All Products
 **Method**: GET
+
 **URL**: localhost:8080/products/all
 
 **RESPONSE**:
