@@ -1,8 +1,8 @@
 # node-crud-api
 CRUD Operation API using Nodejs, MongoDB and Express
 To start the project run 
->node app.js
 The project is runs in port 8080, if you want to change it you can change it on app.js
+>node app.js
 
 The API created in this project are as follow:-
 
