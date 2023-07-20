@@ -1,8 +1,11 @@
 # node-crud-api
 CRUD Operation API using Nodejs, MongoDB and Express
-To start the project run >node app.js
-Node ProductApp test Api
-﻿
+To start the project run 
+>node app.js
+The project is runs in port 8080, if you want to change it you can change it on app.js
+
+The API created in this project are as follow:-
+
 Test API
 Method: GET
 URL: localhost:8080/products/test
@@ -10,11 +13,11 @@ RESPONSE:
 Greetings from the Test controller!
 
 -------------------------------------------------------------------------------------------------------------------
-﻿
+
 Create New Product
 Method: POST
 URL: localhost:8080/products/create
-﻿
+
 Query Params Body urlencoded
 name   apple
 price  15
@@ -41,7 +44,7 @@ RESPONSE:
 Update a Product
 Method: PUT
 URL: localhost:8080/products/64aba32250d7a312efec8be9/update
-﻿
+
 urlencoded
 name    apple
 price   33
