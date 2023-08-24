@@ -22,9 +22,10 @@ Greetings from the Test controller!
 **URL**: localhost:8080/products/create
 
 Query Params Body urlencoded
+```
 name   apple
 price  15
-
+```
 **RESPONSE**:
 Product Created Successfully
 
@@ -36,12 +37,14 @@ Product Created Successfully
 **URL**: localhost:8080/products/64aba208dfc6a2bfc1b022a0
 
 **RESPONSE**:
+```
 {
     "_id": "64aba208dfc6a2bfc1b022a0",
     "name": "apple",
     "price": 15,
     "__v": 0
 }
+```
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -51,9 +54,10 @@ Product Created Successfully
 **URL**: localhost:8080/products/64aba32250d7a312efec8be9/update
 
 urlencoded
+```
 name    apple
 price   33
-
+```
 **RESPONSE**:
 Product udpated.
 
