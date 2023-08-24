@@ -65,7 +65,7 @@ Product udpated.
 **URL**: localhost:8080/products/all
 
 **RESPONSE**:
-[
+```[
     {
         "_id": "64aba208dfc6a2bfc1b022a0",
         "name": "apple",
